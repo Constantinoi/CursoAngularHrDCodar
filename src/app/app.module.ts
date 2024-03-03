@@ -15,6 +15,7 @@ import { ListRenderComponent } from './components/list-render/list-render.compon
 import { UsePipesComponent } from './components/use-pipes/use-pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { AppRoutingModule } from './app-routing.modules';
+import { ItemDatailComponent } from './components/item-datail/item-datail.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { AppRoutingModule } from './app-routing.modules';
     ListRenderComponent,
     UsePipesComponent,
     TwoWayBindingComponent,
+    ItemDatailComponent,
   ],
   imports: [BrowserModule, FormsModule, AppRoutingModule, HttpClientModule],
   providers: [],
